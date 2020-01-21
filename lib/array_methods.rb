@@ -1,4 +1,4 @@
-# array1 = ["cow", "sheep", "goats"]
+# array1 = [1, 2, 3, 4]
 def find_element_index(array, value_to_find)
   counter = 0 
   while counter < array.length do 
