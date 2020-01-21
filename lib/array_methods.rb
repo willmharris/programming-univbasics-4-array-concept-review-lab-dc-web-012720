@@ -1,11 +1,20 @@
+# array1 = ["cow", "sheep", "goats"]
 def find_element_index(array, value_to_find)
-  # Add your solution here
+  counter = 0 
+  while counter < array.length do 
+    variable = array[counter]
+    break if variable == value_to_find
+    count += 1
+  end
+  if variable == value_to_find puts counter
 end
 
 def find_max_value(array)
-  # Add your solution here
+  
 end
 
 def find_min_value(array)
-  # Add your solution here
+  
 end
+
+# For this lab's tests, assume all arrays are sets of positive integers.
