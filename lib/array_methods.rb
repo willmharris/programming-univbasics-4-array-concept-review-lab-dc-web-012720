@@ -6,8 +6,9 @@ def find_element_index(array, value_to_find)
     break if variable == value_to_find
     counter += 1
   end
-  if variable == value_to_find return
-    counter 
+  if variable == value_to_find return counter 
+    
+  end 
 end
 
 
